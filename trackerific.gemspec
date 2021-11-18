@@ -18,8 +18,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_dependency 'httparty', '>= 0.12.0'
-  spec.add_dependency 'savon', '~> 2.3.0'
+  #spec.add_dependency 'httparty', '>= 0.12.0'
+  spec.add_dependency 'savon'#, '~> 2.3.0'
   spec.add_dependency 'activesupport'
   spec.add_dependency 'builder'
 
@@ -27,5 +27,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '< 11'
   spec.add_development_dependency 'rspec', '~> 2.6.0'
   spec.add_development_dependency 'fakeweb', '~> 1.3.0'
-  spec.add_development_dependency 'coveralls', '~> 0.7.0'
 end
